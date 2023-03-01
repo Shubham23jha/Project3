@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Red Rose", cursive;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    margin: 1%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #FDD36A;
+}
+
+li:hover {
+    color: blue;
+}
+
+button {
+    background-color: hsl(354, 94%, 40%);
+    padding: 4px 10px;
+    color: whitesmoke;
+    font-weight: 700;
+    width: fit-content;
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E5BA73;
+    color: #DC0000;
+    /* border: 1px solid black; */
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    margin: 2px, 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70px;
+    /* or 110% */
+    color: #ffc233;
+}
+
+.mainbutton {
+    height: 21%;
+    width: 12%;
+    padding: 10px 0px;
+    border: none;
+}
